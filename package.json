@@ -1,0 +1,39 @@
+{
+  "name": "npm-package-boilerplate",
+  "version": "1.0.0",
+  "description": "JavaScript library npm package boilerplate",
+  "author": "Jason Sturges <jason@jsonsturges.com> (https://jasonsturges.com)",
+  "homepage": "https://github.com/jasonsturges/npm-package-boilerplate",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jasonsturges/npm-package-boilerplate"
+  },
+  "license": "ISC",
+  "keywords": [
+    "npm",
+    "package",
+    "boilerplate"
+  ],
+  "main": "dist/npm-package-boilerplate.cjs.js",
+  "module": "dist/npm-package-boilerplate.esm.js",
+  "browser": "dist/npm-package-boilerplate.umd.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "rollup -c -w",
+    "build": "rollup -c",
+    "predocs": "rimraf ./docs",
+    "docs": "jsdoc -r src/*s -R README.md -d ./docs",
+    "clean": "rimraf ./build ./dist ./docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.1.3",
+    "eslint": "^8.9.0",
+    "prettier": "^2.5.1",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.67.2"
+  }
+}
