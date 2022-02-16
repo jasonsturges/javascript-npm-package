@@ -140,7 +140,7 @@ Once ready to submit your package to the NPM Registry, execute the following tas
 
 - `npm run clean` &mdash; Assure a clean build
 - `npm run build` &mdash; Build the JavaScript package
-- `npm run build:types` &mdash; Build API Extractor to build d.ts declarations for TypeScript compatibility
+- `npm run build:types` &mdash; Build API Extractor (d.ts declarations) for TypeScript compatibility
 
 Assure the proper npm login:
 
