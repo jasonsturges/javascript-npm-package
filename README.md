@@ -2,9 +2,9 @@
 
 Scaffold JavaScript npm packages using this template to bootstrap your next library.
 
-This boilerplate supports generating TypeScript declarations (`d.ts`) for compatibility with TypeScript projects.
+This boilerplate supports generating TypeScript declarations (`d.ts`) for compatibility with TypeScript projects by using JSDoc comments for types.
 
-This project includes:
+Project includes:
 - [TypeScript](https://www.typescriptlang.org/)
 - [Rollup](https://rollupjs.org/)
 - [Microsoft API Extractor](https://api-extractor.com/)
