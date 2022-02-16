@@ -2,7 +2,15 @@
 
 Scaffold JavaScript npm packages using this template to bootstrap your next library.
 
-_For TypeScript version, see: https://github.com/jasonsturges/npm-package-boilerplate_
+This Boilerplate supports generating TypeScript declarations (`d.ts`) for compatibility with TypeScript projects.
+
+This project includes:
+- [TypeScript](https://www.typescriptlang.org/)
+- [Rollup](https://rollupjs.org/)
+- [Microsoft API Extractor](https://api-extractor.com/)
+- [TypeDoc](https://typedoc.org/)
+
+_For a TypeScript version of this boilerplate, see: https://github.com/jasonsturges/npm-package-boilerplate_
 
 
 ## Getting Started
@@ -40,7 +48,9 @@ The following tasks are available for `npm run`:
 
 - `dev`: Run Rollup in watch mode to detect changes to files during development
 - `build`: Run Rollup to build a production release distributable
-- `docs`: JSDoc generated documentation in the "*docs/*" folder
+- `build:types`: Run Microsoft API Extractor to rollup a types declaration (`d.ts`) file 
+- `docs:jsdoc`: JSDoc generated documentation in the "*docs/*" folder
+- `docs:typedoc`: TypeDoc for TSDoc generated documentation in the "*docs/*" folder
 - `clean`: Remove all build artifacts
 
 
@@ -129,8 +139,8 @@ npm unlink
 Once ready to submit your package to the NPM Registry, execute the following tasks via `npm` (or `yarn`):
 
 - `npm run clean` &mdash; Assure a clean build
-- `npm run build` &mdash; Build the package
-- `npm run build:types` &mdash; Build API Extractor d.ts declaration
+- `npm run build` &mdash; Build the JavaScript package
+- `npm run build:types` &mdash; Build API Extractor to build d.ts declarations for TypeScript compatibility
 
 Assure the proper npm login:
 
