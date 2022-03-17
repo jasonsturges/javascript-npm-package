@@ -14,9 +14,9 @@
     "package",
     "boilerplate"
   ],
-  "main": "dist/npm-package-boilerplate.cjs.js",
-  "module": "dist/npm-package-boilerplate.esm.js",
-  "browser": "dist/npm-package-boilerplate.umd.js",
+  "main": "dist/cjs/npm-package-boilerplate.js",
+  "module": "dist/esm/npm-package-boilerplate.js",
+  "browser": "dist/browser/npm-package-boilerplate.js",
   "files": [
     "dist"
   ],
