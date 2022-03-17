@@ -10,19 +10,17 @@ export default [
       name: "NPMPackageBoilerplate",
       file: pkg.browser,
       format: "umd",
+      sourcemap: true,
     },
-    plugins: [
-      resolve(),
-      commonjs()
-    ],
+    plugins: [resolve(), commonjs()],
   },
 
   // CommonJS (for Node) and ES module (for bundlers) build.
   {
     input: "src/index.js",
     output: [
-      { file: pkg.main, format: "cjs" },
-      { file: pkg.module, format: "es" },
+      { file: pkg.main, format: "cjs", sourcemap: true },
+      { file: pkg.module, format: "es", sourcemap: true },
     ],
   },
 ];
