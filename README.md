@@ -1,4 +1,4 @@
-# NPM Package Boilerplate
+# JavaScript NPM Package
 
 Scaffold JavaScript npm packages using this template to bootstrap your next library.
 
