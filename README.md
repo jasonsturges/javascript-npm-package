@@ -10,7 +10,11 @@ Project includes:
 - [Microsoft API Extractor](https://api-extractor.com/)
 - [TypeDoc](https://typedoc.org/)
 
-_For a TypeScript version of this boilerplate, see: https://github.com/jasonsturges/npm-package-boilerplate_
+Versions of this template:
+- [Vite TypeScript library npm package](https://github.com/jasonsturges/vite-typescript-npm-package)
+- [Vite JavaScript library npm package](https://github.com/jasonsturges/vite-npm-package)
+- [Rollup JavaScript library npm package](https://github.com/jasonsturges/npm-package-boilerplate)
+- [Rollup TypeScript library npm package](https://github.com/jasonsturges/typescript-npm-package)
 
 
 ## Getting Started
